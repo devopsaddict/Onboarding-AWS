@@ -4,7 +4,7 @@
 
 1. You can create the in management console [CreateUser in Management Console](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started-workloads.html)
 2. You can also create IAM user with AWS CLI
-  > aws iam create-user --user-name Automation 
+     ```aws iam create-user --user-name Automation ```
 3. Create an IAM user group named AutomationGroup, attach the AWS managed policy PowerUserAccess to the group, and then add the Automation user to the group
 * Create AWS IAM Group
      > aws iam create-group --group-name AutomationGroup
