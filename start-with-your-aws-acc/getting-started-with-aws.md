@@ -9,7 +9,9 @@
      ```
 4. Create an IAM user group named AutomationGroup, attach the AWS managed policy PowerUserAccess to the group, and then add the Automation user to the group
 * Create AWS IAM Group
-     > aws iam create-group --group-name AutomationGroup
+     ```
+      aws iam create-group --group-name AutomationGroup
+     ```
 * Iam Attach group policy
      > aws iam attach-group-policy --policy-arn arn:aws:iam::aws:policy/PowerUserAccess --group-name AutomationGroup
 
