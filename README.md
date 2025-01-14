@@ -1,5 +1,2 @@
 # Onboarding-AWS
-MyFirstStep-This-Journey
-
-
-|| Date || Name || Context ||
+### MyFirstStep-This-Journey
